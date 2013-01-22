@@ -2,3 +2,5 @@
 
 # Eagle files considered as binary files
 *.lbr binary
+*.brd board
+*.sch schematic
