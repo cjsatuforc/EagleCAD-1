@@ -3761,27 +3761,27 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="47K"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="47K"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LED-P1.0" library="custom" deviceset="LED" device="0805"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
+<part name="LED-P1.1" library="custom" deviceset="LED" device="0805"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220"/>
 <part name="U2" library="SparkFun-DigitalIC" deviceset="FT232RL-BASIC" device="SSOP"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="USB" device="-A-H" value="USB-B"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="USB" device="-A-H" value="USB-B"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="330"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="330"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="330"/>
 <part name="TXLED" library="custom" deviceset="LED" device="0805"/>
 <part name="RXLED" library="custom" deviceset="LED" device="0805"/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M05" device="LOCK"/>
-<part name="JP5" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
 </parts>
 <sheets>
 <sheet>
@@ -3794,27 +3794,27 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 <instance part="SUPPLY2" gate="1" x="137.16" y="93.98" rot="MR0"/>
 <instance part="GND1" gate="1" x="212.09" y="8.89"/>
 <instance part="SUPPLY3" gate="1" x="166.37" y="11.43" rot="R180"/>
-<instance part="R2" gate="G$1" x="224.79" y="77.47" rot="MR90"/>
+<instance part="R4" gate="G$1" x="224.79" y="77.47" rot="MR90"/>
 <instance part="SUPPLY4" gate="1" x="224.79" y="88.9" rot="MR0"/>
 <instance part="GND5" gate="1" x="115.57" y="41.91" rot="MR0"/>
-<instance part="LED-P1.0" gate="G$1" x="115.57" y="60.96" rot="MR0"/>
-<instance part="R4" gate="G$1" x="115.57" y="73.66" rot="MR270"/>
+<instance part="LED-P1.1" gate="G$1" x="115.57" y="60.96" rot="MR0"/>
+<instance part="R3" gate="G$1" x="115.57" y="73.66" rot="MR270"/>
 <instance part="U2" gate="G$1" x="40.64" y="40.64"/>
-<instance part="C1" gate="G$1" x="0" y="27.94"/>
-<instance part="C3" gate="G$1" x="22.86" y="91.44"/>
-<instance part="JP3" gate="G$1" x="2.54" y="106.68" rot="R180"/>
+<instance part="C3" gate="G$1" x="0" y="27.94"/>
+<instance part="C1" gate="G$1" x="22.86" y="91.44"/>
+<instance part="JP1" gate="G$1" x="0" y="104.14" rot="R180"/>
 <instance part="JP4" gate="G$1" x="97.79" y="91.44"/>
 <instance part="GND3" gate="1" x="22.86" y="76.2"/>
 <instance part="GND4" gate="1" x="12.7" y="7.62"/>
 <instance part="GND6" gate="1" x="0" y="7.62"/>
 <instance part="R1" gate="G$1" x="73.66" y="50.8" rot="R270"/>
-<instance part="R3" gate="G$1" x="83.82" y="50.8" rot="R270"/>
+<instance part="R2" gate="G$1" x="83.82" y="50.8" rot="R270"/>
 <instance part="TXLED" gate="G$1" x="73.66" y="35.56"/>
 <instance part="RXLED" gate="G$1" x="83.82" y="35.56"/>
 <instance part="L1" gate="G$1" x="35.56" y="104.14" rot="R90"/>
 <instance part="C2" gate="G$1" x="48.26" y="91.44"/>
 <instance part="JP2" gate="G$1" x="66.04" y="0" rot="R180"/>
-<instance part="JP5" gate="G$1" x="45.72" y="2.54" rot="R180"/>
+<instance part="JP3" gate="G$1" x="45.72" y="2.54" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -3829,7 +3829,7 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="115.57" y1="44.45" x2="115.57" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="LED-P1.0" gate="G$1" pin="C"/>
+<pinref part="LED-P1.1" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="TEST"/>
@@ -3854,23 +3854,23 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 <junction x="12.7" y="25.4"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="0" y1="25.4" x2="0" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="22.86" y1="88.9" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="GND"/>
 <wire x1="22.86" y1="86.36" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="106.68" x2="15.24" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="106.68" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="101.6" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
 <junction x="22.86" y="86.36"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="88.9" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="VBUS"/>
+<wire x1="2.54" y1="101.6" x2="15.24" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -3883,7 +3883,7 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 <wire x1="102.87" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="5.08" x2="33.02" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3899,7 +3899,7 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 <wire x1="166.37" y1="16.51" x2="166.37" y2="11.43" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="SUPPLY4" gate="1" pin="VCC"/>
 <wire x1="224.79" y1="88.9" x2="224.79" y2="82.55" width="0.1524" layer="91"/>
 </segment>
@@ -3916,7 +3916,7 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 <segment>
 <pinref part="U2" gate="G$1" pin="3V3OUT"/>
 <wire x1="25.4" y1="43.18" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="43.18" x2="0" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="0" y1="43.18" x2="0" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VCCIO"/>
@@ -3925,7 +3925,7 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 <junction x="12.7" y="43.18"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="G$1" pin="4"/>
+<pinref part="JP3" gate="G$1" pin="4"/>
 <wire x1="40.64" y1="-2.54" x2="33.02" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3935,7 +3935,7 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="224.79" y1="72.39" x2="200.66" y2="72.39" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="24"/>
 </segment>
@@ -3947,8 +3947,8 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 <net name="N$8" class="0">
 <segment>
 <wire x1="115.57" y1="68.58" x2="115.57" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="LED-P1.0" gate="G$1" pin="A"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="LED-P1.1" gate="G$1" pin="A"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4008,7 +4008,7 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 <wire x1="153.67" y1="77.47" x2="144.78" y2="77.47" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="G$1" pin="2"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="2.54" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4026,7 +4026,7 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 <wire x1="153.67" y1="74.93" x2="144.78" y2="74.93" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="G$1" pin="3"/>
+<pinref part="JP3" gate="G$1" pin="3"/>
 <wire x1="40.64" y1="0" x2="33.02" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4043,7 +4043,7 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="RXLED" gate="G$1" pin="A"/>
 <wire x1="83.82" y1="45.72" x2="83.82" y2="38.1" width="0.1524" layer="91"/>
 </segment>
@@ -4066,19 +4066,19 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="VBUS"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="96.52" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="GND"/>
+<wire x1="2.54" y1="104.14" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
 <junction x="22.86" y="104.14"/>
-<wire x1="22.86" y1="104.14" x2="5.08" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USBDP" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="D-"/>
-<wire x1="5.08" y1="101.6" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="D-"/>
+<wire x1="2.54" y1="99.06" x2="7.62" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="USBDP"/>
@@ -4087,8 +4087,8 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 </net>
 <net name="USBDM" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="D+"/>
-<wire x1="5.08" y1="99.06" x2="12.7" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="D+"/>
+<wire x1="2.54" y1="96.52" x2="7.62" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="USBDM"/>
@@ -4107,7 +4107,7 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="2"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="153.67" y1="80.01" x2="115.57" y2="80.01" width="0.1524" layer="91"/>
 <wire x1="115.57" y1="80.01" x2="115.57" y2="78.74" width="0.1524" layer="91"/>
 </segment>
@@ -4129,7 +4129,7 @@ TSSOP (PW) 28 Pin Package &lt;br&gt;</description>
 <wire x1="48.26" y1="96.52" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <junction x="48.26" y="104.14"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="66.04" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="104.14" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
